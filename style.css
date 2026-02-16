@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+
+.emoji-container {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.emoji {
+    margin: 15px;
+    transition: transform 0.2s ease;
+}
+
+.emoji:hover {
+    transform: scale(1.4);
+}
+
+#quote {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    max-width: 700px;
+    padding: 20px;
+    min-height: 80px;
+}
